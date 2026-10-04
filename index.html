@@ -9,63 +9,46 @@
 </head>
 
 <body>
-  <section class="registration" id="registration">
-  <div class="registration__info">
-    <p class="registration__eyebrow">Подія для майбутніх розробників</p>
-    <h2>Teen IT Day 2026</h2>
-    <p>
-      Обери напрям, познайомся з IT-командою та створи свій перший
-      командний вебкомпонент.
-    </p>
+  <section class="container">
 
-    <ul class="registration__facts">
-      <li>📅 18 жовтня</li>
-      <li>🕙 11:00–14:00</li>
-      <li>💻 Онлайн</li>
-    </ul>
-  </div>
+    <div class="text">
 
-  <form class="signup-form" action="#" method="post">
-    <div class="form-field">
-      <label for="student-name">Ім'я</label>
-      <input
-        type="text"
-        id="student-name"
-        name="student-name"
-        placeholder="Наприклад, Марко"
-        required
-      >
+      <h2 class="text_h2">Подія для майбутніх розробників</h2>
+      <h1 class="text_h1">Teen IT Day 2026</h1>
+      <h3 class="text_h3">Обери напрям, познайомся з IT командою та створи свій перший командний вебкомпонент</h3>
+
+      <div class="mini-text">
+
+        <p class="text_p">📅 ???</p>
+        <p class="text_p">⌛ ???</p>
+        <p class="text_p">💻 ???</p>
+
+      </div>
+
     </div>
 
-    <div class="form-field">
-      <label for="student-email">Email</label>
-      <input
-        type="email"
-        id="student-email"
-        name="student-email"
-        placeholder="name@example.com"
-        required
-      >
+    <div class="regestration">
+
+      <div class="inputs">
+
+      <input class="input" type="text" placeholder="Введіть ваше ім'я">
+      <input class="input" type="text" placeholder="Введіть ваше ім'я">
+      <input class="input" type="text" placeholder="Введіть ваше ім'я">
+      
+      </div>
+
+      <div class="checkbox">
+
+        <input class="checkbox_input" type="checkbox">
+        <label for="agree">Я погоджуюсь з правилми участі</label>
+
+      </div>
+
+      <button class="button">Зареєструватися</button>
+
     </div>
 
-    <div class="form-field">
-      <label for="track">Обери напрям</label>
-      <select id="track" name="track" required>
-        <option value="">Обери варіант</option>
-        <option value="frontend">FrontEnd</option>
-        <option value="design">UI/UX Design</option>
-        <option value="qa">QA</option>
-      </select>
-    </div>
-
-    <label class="form-check">
-      <input type="checkbox" name="rules" required>
-      <span>Я погоджуюся з правилами участі</span>
-    </label>
-
-    <button type="submit">Зареєструватися</button>
-  </form>
-</section>
+  </section>
 </body>
 
 </html>
